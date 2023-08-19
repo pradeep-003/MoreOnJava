@@ -1,5 +1,37 @@
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    public static void main(String[] args)
+    {
+       for(int i =123456789; i<999999999; i++) {
+           int num[] = new int[9];
+           num[0] = (i % 10);
+           num[1] = ((i % 100) / 10);
+           num[2] = ((i % 1000) / 100);
+           num[3] = ((i % 10000) / 1000);
+           num[4] = ((i % 100000) / 10000);
+           num[5] = ((i % 1000000) / 100000);
+           num[6] = ((i % 10000000) / 1000000);
+           num[7] = ((i % 100000000) / 10000000);
+           num[8] = ((i % 1000000000) / 100000000);
+
+           if (num[0] != num[1] && num[0] != num[2] && num[0] != num[3] && num[0] != num[4] && num[0] != num[5] && num[0] != num[6] && num[0] != num[7] && num[0] != num[8] &&
+                           num[1] != num[2] && num[1] != num[3] && num[1] != num[4] && num[1] != num[5] && num[1] != num[6] && num[1] != num[7] && num[1] != num[8] && num[0] != 0 &&
+                     num[2] != num[3] && num[2] != num[4] && num[2] != num[5] && num[2] != num[6] && num[2] != num[7] && num[2] != num[8] && num[1] != 0 && num[2] != 0 &&
+                       num[3] != num[4] && num[3] != num[5] && num[3] != num[6] && num[3] != num[7] && num[3] != num[8] && num[3] != 0 &&
+                         num[4] != num[5] && num[4] != num[6] && num[4] != num[7] && num[4] != num[8] && num[4] != 0 &&
+                        num[5] != num[6] && num[5] != num[7] && num[5] != num[8] && num[5] != 0 &&
+                         num[6] != num[7] && num[6] != num[8] && num[6] != 0 && num[7] != 0 && num[8] != 0 &&
+                         num[7] != num[8] && (num[8]  % 1) == 0 && (((num[8]*10)+num[7])%2) == 0 && (((num[8]*100)+(num[7]*10)+num[6])%3) == 0 && (((num[8]*1000)+(num[7]*100)+(num[6]*10)+num[5])%4) == 0
+                   &&  (((num[8]*10000)+(num[7]*1000)+(num[6]*100)+(num[5]*10)+num[4])%5) == 0 &&
+                   (((num[8]*100000)+(num[7]*10000)+(num[6]*1000)+(num[5]*100)+(num[4]*10)+num[3])%6) == 0 &&
+                   (((num[8]*1000000)+(num[7]*100000)+(num[6]*10000)+(num[5]*1000)+(num[4]*100)+(num[3]*10)+num[2])%7) == 0 &&
+                   (((num[8]*10000000)+(num[7]*1000000)+(num[6]*100000)+(num[5]*10000)+(num[4]*1000)+(num[3]*100)+(num[2]*10)+num[1])%8) == 0 &&
+                   (((num[8]*100000000)+(num[7]*10000000)+(num[6]*1000000)+(num[5]*100000)+(num[4]*10000)+(num[3]*1000)+(num[2]*100)+(num[1]*10)+num[0])%9) == 0
+           ) {
+              int uDigit = num[0] + (num[1] * 10) + (num[2] * 100) + (num[3] * 1000) + (num[4] * 10000) +(num[5] * 100000) +(num[6] * 1000000) +(num[7] * 10000000) +(num[8] * 100000000) ;
+               System.out.println(uDigit);
+           }
+
+
+       }
     }
 }
