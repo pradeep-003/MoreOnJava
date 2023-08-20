@@ -14,6 +14,9 @@ public class LaunchHS {
         hs.add(40);
 
         System.out.println(hs);
+        hs.add(40);
+        hs.add("pk");
+        System.out.println(hs);
 
         LinkedHashSet lhs = new LinkedHashSet();
 
@@ -22,6 +25,10 @@ public class LaunchHS {
         lhs.add(30);
         lhs.add(40);
 
+        System.out.println(lhs);
+
+        lhs.add(40);
+        lhs.add("pk");
         System.out.println(lhs);
     }
 }
