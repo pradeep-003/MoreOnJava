@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+
 public class Trial {
     public static void main(String[] args) {
 
-
-        int num = (123456789 % 1000000000) / 100000000;
-        System.out.println(num);
+        ArrayList a = new ArrayList<>();
+        a.add(null);
+        a.add(100);
+        System.out.println(a);
     }
 }

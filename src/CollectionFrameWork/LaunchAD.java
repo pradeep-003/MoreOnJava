@@ -19,8 +19,10 @@ public class LaunchAD {
         System.out.println(ad1);
 
         ad1.offer(500);
+      //  ad1.offer(200);
         System.out.println(ad1);
         ad1.offerLast(10);
+       // ad1.offerLast(20);
         System.out.println(ad1);
         ad1.offerFirst(1);
         System.out.println(ad1);

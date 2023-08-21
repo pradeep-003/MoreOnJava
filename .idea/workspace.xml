@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836c1211-9cb0-4967-9eb8-c537d7265049" name="Changes" comment="Starting Milestone3onjava.imltone">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/FFFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionFrameWork/LaunchITR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFrameWork/LaunchHS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFrameWork/LaunchHS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Trial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692440648463</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Starting Milestone3onjava.imltone">
+      <created>1692513695648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1692513695648</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
