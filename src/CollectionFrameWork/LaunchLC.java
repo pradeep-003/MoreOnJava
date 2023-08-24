@@ -2,6 +2,7 @@ package CollectionFrameWork;
 
 import java.util.Enumeration;
 import java.util.Iterator;
+import java.util.ListIterator;
 import java.util.Vector;
 
 public class LaunchLC
@@ -22,10 +23,11 @@ public class LaunchLC
            System.out.println(en.nextElement());
        }
 
-//       Iterator itr = v.iterator();
-//       while (itr.hasNext())
-//       {
-//           System.out.println(itr.next());
-//       }
+       Iterator itr = v.iterator();
+       while (itr.hasNext())
+       {
+           System.out.println(itr.next());
+       }
+       ListIterator l = v.listIterator();
     }
 }

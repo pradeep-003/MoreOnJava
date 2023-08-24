@@ -1,11 +1,13 @@
 import java.util.ArrayList;
-
+import java.util.*;
 public class Trial {
-    public static void main(String[] args) {
 
-        ArrayList a = new ArrayList<>();
-        a.add(null);
-        a.add(100);
-        System.out.println(a);
-    }
-}
+        public static void main(String[] args) {
+
+            List<Integer> intList = new ArrayList<>();
+
+            intList.add(10);
+
+            intList.add(20);
+
+            System.out.println("The list is: " + intList);}}
