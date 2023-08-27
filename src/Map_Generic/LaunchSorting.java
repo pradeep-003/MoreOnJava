@@ -52,7 +52,7 @@ class Student2
 public class LaunchSorting {
     public static void main(String[] args) {
 
-//        Alpha a = new Alpha();
+      //  Alpha a = new Alpha();
 
 //        Comparator<Student2> a = new Comparator<Student2>()
 //        {
@@ -69,16 +69,16 @@ public class LaunchSorting {
 //            }
 //        };
 
-        Comparator<Student2> a = (Student2 k, Student2 p)->{
-            if(k.marks>p.marks)
-            {
-                return 1;
-            }
-            else
-            {
-                return -1;
-            }
-        };
+//        Comparator<Student2> a = (Student2 k, Student2 p)->{
+//            if(k.marks>p.marks)
+//            {
+//                return 1;
+//            }
+//            else
+//            {
+//                return -1;
+//            }
+//        };
 
         Student2 st1 = new Student2(45, 18, "Rohan");
         Student2 st2 = new Student2(50, 17, "Rohit");
@@ -94,7 +94,16 @@ public class LaunchSorting {
 
 
         // Collections.sort(list);
-        Collections.sort(list, a);
+        Collections.sort(list, (Student2 k, Student2 p)->{
+            if(k.marks>p.marks)
+            {
+                return 1;
+            }
+            else
+            {
+                return -1;
+            }
+        } );
         System.out.println(list);
     }
 }
