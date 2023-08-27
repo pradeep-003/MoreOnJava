@@ -28,6 +28,7 @@ public class LaunchCol {
         al2.add("ROHAN");
 
 
+
         System.out.println(al2);
 
         Collections.sort(al2);
@@ -44,11 +45,11 @@ public class LaunchCol {
 
         System.out.println(al3);
 
-//        int index = Collections.binarySearch(al3, 70);
-//        System.out.println(" Index is : " + index);
+       int index = Collections.binarySearch(al3, 30);
+       System.out.println(" Index is : " + index);
 
-//        Collections.rotate(al3, 2);
-//        System.out.println(al3);
+        Collections.rotate(al3, 2);
+        System.out.println(al3);
 
         Collections.shuffle(al3);
         System.out.println(al3);
