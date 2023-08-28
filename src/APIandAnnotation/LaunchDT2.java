@@ -10,7 +10,18 @@ public class LaunchDT2
         LocalDate date = LocalDate.now();
         System.out.println(date);
 
+        int day = date.getDayOfMonth();
+        int month = date.getMonthValue();
+        int year = date.getYear();
+
+        System.out.println(day+"/"+month+"/"+year);
+
         LocalTime time = LocalTime.now();
         System.out.println(time);
+        int hour = time.getHour();
+        int minute = time.getMinute();
+        int second = time.getSecond();
+        int nanoSecond = time.getNano();
+        System.out.println(hour+":"+minute+":"+second+"."+nanoSecond);
     }
 }
