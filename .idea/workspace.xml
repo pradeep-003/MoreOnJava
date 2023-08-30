@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836c1211-9cb0-4967-9eb8-c537d7265049" name="Changes" comment="Starting Milestone3onjava.imltone">
-      <change afterPath="$PROJECT_DIR$/src/APIandAnnotation/LaunchFE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APIandAnnotation/LaunchSTR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/APIandAnnotation/LaunchSTR1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693242883681</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Starting Milestone3onjava.imltone">
+      <created>1693374303957</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1693374303957</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
