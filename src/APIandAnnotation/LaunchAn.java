@@ -7,6 +7,8 @@ interface Demo
 }
 
 // This is parent class
+
+@Deprecated
 class Plane
 {
     public void planeFliesAtGoodHeight()
@@ -38,3 +40,6 @@ public class LaunchAn
         cp.planeFliesAtGoodHeight();
     }
 }
+
+
+/* OUTPUT : CargoPlane flies at low height   */

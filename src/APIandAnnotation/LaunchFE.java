@@ -36,14 +36,14 @@ public class LaunchFE {
 //***************************************************************
 
         // ANONYMOUS INNER CLASS
-//        Consumer<Integer> cons = new Consumer<Integer>() {
-//            @Override
-//            public void accept(Integer integer) {
-//                System.out.println(integer);
-//            }
-//        };
-//
-//        list2.forEach(cons);
+        Consumer<Integer> cons = new Consumer<Integer>() {
+            @Override
+            public void accept(Integer integer) {
+                System.out.println(integer);
+            }
+        };
+
+        list2.forEach(cons);
 
 //***************************************************************
 
@@ -59,3 +59,13 @@ public class LaunchFE {
 
     }
 }
+
+/* OUTPUT:
+[2, 4, 5, 8, 9]
+[2, 4, 5, 8, 9]
+2
+4
+5
+8
+9
+ */

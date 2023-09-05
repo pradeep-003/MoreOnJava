@@ -2,7 +2,7 @@ package APIandAnnotation;
 
 enum Result
 {
-    PASS, FAIL, NR;
+    PASS("Hii"), FAIL("Hello"), NR("what!!");
 
     /*           BTS  // Constructor will be called no. of constant times
     public static final Result PASS = new Result();
@@ -11,7 +11,7 @@ enum Result
      */
 
     int marks;
-    Result()
+    Result(String s)
     {
         System.out.println("constructor in enum");
     }
@@ -35,8 +35,16 @@ public class LaunchEnum2
        int m2 = Result.FAIL.getMarks();
        System.out.println(m2);
 
-       Result.NR.setMarks(45);
-       int m3 = Result.NR.getMarks();
-       System.out.println(m3);
+//       Result.NR.setMarks(45);
+//       int m3 = Result.NR.getMarks();
+//       System.out.println(m3);
     }
 }
+
+/* OUTPUT :
+constructor in enum
+constructor in enum
+constructor in enum
+50
+0
+ */

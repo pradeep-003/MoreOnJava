@@ -29,3 +29,11 @@ public class LaunchEnum3
 
     }
 }
+
+
+/* OUTPUT:
+Constructor in enum
+Constructor in enum
+Constructor in enum
+Failed!
+ */

@@ -25,3 +25,11 @@ public class LaunchDT2
         System.out.println(hour+":"+minute+":"+second+"."+nanoSecond);
     }
 }
+
+
+/* OUTPUT:
+2023-09-05
+5/9/2023
+09:32:03.742166300
+9:32:3.742166300
+ */
