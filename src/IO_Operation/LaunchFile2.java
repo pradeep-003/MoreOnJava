@@ -20,7 +20,7 @@ public class LaunchFile2
             System.out.println( "The exception is: "+ e.toString());
         }
 
-        System.out.println(file1.exists());
+        System.out.println(file1.exists()); //true
 
         /* DIRECTORY */
         File dir = new File("pw");

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="836c1211-9cb0-4967-9eb8-c537d7265049" name="Changes" comment="Starting Milestone3onjava.imltone">
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFile3.java" afterDir="false" />
+    <list default="true" id="836c1211-9cb0-4967-9eb8-c537d7265049" name="Changes" comment="06-9">
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchBRFR8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchBWFW7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFR5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFR6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFW4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchPw9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/IO_Operation/LaunchFile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFile2.java" afterDir="false" />
     </list>
@@ -261,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693919677236</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="06-9">
+      <created>1693972461422</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972461422</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +290,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Starting Milestone3onjava.imltone" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Milestone3onjava.imltone" />
+    <MESSAGE value="06-9" />
+    <option name="LAST_COMMIT_MESSAGE" value="06-9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
