@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="836c1211-9cb0-4967-9eb8-c537d7265049" name="Changes" comment="06-9">
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchBRFR8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchBWFW7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFR5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFR6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFW4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchPw9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchSD10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LaunchSDD11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trial.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IO_Operation/LaunchFile2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO_Operation/LaunchFile2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pw.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
