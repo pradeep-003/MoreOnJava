@@ -1,9 +1,11 @@
+package IO_Operation;
+
 import java.io.*;
 
 class AIML implements Serializable
 {
     private int score;
-   transient private String result;
+    transient private String result;
     private int batch;
 
     public AIML(int score, String result, int batch) {
