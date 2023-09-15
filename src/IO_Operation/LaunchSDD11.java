@@ -39,5 +39,14 @@ public class LaunchSDD11
 
         AIML aim = (AIML)ois.readObject();
         aim.disp();
+        ois.close();
     }
 }
+
+/*
+
+82
+null
+1
+
+ */
